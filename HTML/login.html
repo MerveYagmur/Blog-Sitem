@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yıldız Tozu</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="socialmediabar">
+            <a href="https://www.facebook.com/profile.php?id=100067319276587"><img src="../images/facebookİcon.png"
+                    width="25px" alt=""></a>
+            <a href="https://instagram.com/_yildiztozuu_?igshid=q5wmywzn99p7"><img src="../images/instagramİcon.png"
+                    width="25px" alt=""></a>
+            <a href="https://twitter.com/birisi_muhendis?s=08"><img src="../images/twitter1.png" width="25px"
+                    alt=""></a>
+        </div>
+        <div class="logo">
+            <a href="#">Yıldız Tozu</a>
+        </div>
+        <div class="sentence">
+            <b href="#">"Nedense ölmeye heveslenir insan, uzaya bir avuç yıldız tozu gibi savrulmaya..."</b>
+        </div>
+        <div class="search-box">
+            <input class="search-text" type="text" name="" placeholder="Arama yapmak için yazınız..">
+            <a class="search-button" href="#"><img src="../images/search.png" width="20px" alt=""></a>
+        </div>
+
+        <ul>
+            <!-- Menu -->
+            <li><a href="index.html"></i>Ana Sayfa</a></li>
+            <li><a href="seyahatlerim.html">Seyahatlerim</a></li>
+            <li><a href="izlediklerim.html">İzlediklerim</a></li>
+            <li><a href="okuduklarim.html">Okuduklarım</a></li>
+            <li><a href="karaladiklarim.html">Karaladıklarım</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="login.html" class="active">Log-in</a></li>
+        </ul>
+    </div>
+    <!-- Login Main -->
+    <div class="login-main">
+        <div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Giriş
+                    Yap</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Kayıt
+                    Ol</label>
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="username" class="label">Kullanıcı Adı</label>
+                            <input id="username" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="password" class="label">Şifre</label>
+                            <input id="password" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group-button">
+                            <input type="submit" class="button" onclick="login()" value="Giriş Yap">
+                        </div>
+                        
+                    </div>
+                    <div class="sign-up-htm">
+                        <div class="group">
+                            <label for="username" class="label">Kullanıcı Adı</label>
+                            <input id="newUsername" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="password" class="label">Şifre</label>
+                            <input id="newPassword" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="email" class="label">E-posta</label>
+                            <input id="newEmail" type="email" class="input">
+                        </div>
+
+                        <div class="group-button">
+                            <input type="submit" class="button" onclick="registerUser()" value="Kayıt Ol">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../JS/login.js"></script>
+        <footer>Tüm Hakları Saklıdır &copy: | 2021</footer>
+    </div>
+</body>
+
+</html>
